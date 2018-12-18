@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>S Synth</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/reset.css">
+
+</head>
+
+<body>
+  <div class="synth" id="synth">
+    <div class="controls" id="controls">
+      <!-- <div class="lfo-control" id=lfo-control></div> -->
+      <div class="osc-control" id="osc1-control"></div>
+      <div class="osc-control" id="osc2-control"></div>
+      <!-- <div class="filter-control" id="filter-control"></div> -->
+    </div>
+    <div class="bend" id="bend"></div>
+    <div class="keyboard clearfix" id="keyboard">
+      <div class="blackkeys clearfix" id="blackkeys">
+      </div>
+    </div>
+    <div class="shift" id="shift"></div>
+  </div>
+
+  <!-- SCRIPTS -->
+  <script src="js/mapFrequency.js"></script>
+  <script src="js/mapNote.js"></script>
+  <script src="js/mapKey.js"></script>
+
+  <script src="js/oscillator.js"></script>
+  <script src="js/control.js"></script>
+  <script src="js/key.js"></script>
+
+  <script src="js/script.js"></script>
+
+
+</body>
+
+</html>

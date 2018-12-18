@@ -1,0 +1,148 @@
+body {
+  background-color: #444444;
+  overflow: hidden;
+  font: 12px;
+}
+
+.synth{
+  width: 1024px;
+  margin: auto;
+  padding: 4px;
+  background: #999999;
+}
+
+.keyboard {
+  width:960px;
+  margin: 2px 0;
+  display: inline-block;
+  background: #444444;
+  border-color: #444444;
+  border-style: solid;
+  border-radius: 0 0 5px 5px;
+  border-width: 1px 5px 5px 5px;
+}
+
+.blackkeys {
+  position: absolute;
+  width:832px;
+  height: 0px;
+  z-index: 5;
+  padding-left: 10px;
+  margin-left: 20px;
+}
+
+.key {
+  float: left;
+}
+
+.white {
+  background: #ffffff;
+  width: 62px;
+  height: 250px;
+  border: 1px solid #010101;
+  border-radius:0 0 5px 5px;
+}
+
+.black {
+  background: #000000;
+  width: 42px;
+  height: 150px;
+  margin: 0px 10px;
+  border: 1px solid #010101;
+  border-radius:0 0 5px 5px;
+}
+
+.spacer {
+  float: left;
+  width: 64px;
+  height: 1px;
+}
+
+.pressed {
+  background: gray;
+}
+
+.controls {
+  width:960px;
+  margin: 2px 27px;
+  background: #444444;
+  border-color: #444444;
+  border-style: solid;
+  border-radius: 5px 5px 0 0;
+  border-width: 1px 5px 5px 5px;
+}
+
+.dial {
+  width: 94px;
+  height: 94px;
+  margin: 2px 8px;
+  display: inline-block;
+  border: 1px solid #999999;
+  border-radius: 50%;
+}
+
+.checkbox {
+  width: 10px;
+  height: 10px;
+  margin: 2px 50px;
+  display: inline-block;
+  border: 1px solid #999999;
+  border-radius: 2px
+}
+
+.checkbox.chk {
+  background: #00ff00;
+}
+
+.lfo-control {
+  margin: 8px 8px 4px 0;
+  width: 226px;
+  height: 226px;
+  display: inline-block;
+  border: 1px solid #999999;
+  border-radius: 4px;
+}
+
+.osc-control {
+  margin: 8px 8px 4px 3px;
+  width: 112px;
+  height: 226px;
+  display: inline-block;
+  border: 1px solid #999999;
+  border-radius: 4px;
+}
+
+.filter-control {
+  margin: 8px 0 4px 3px;
+  width: 454px;
+  height: 226px;
+  display: inline-block;
+  border: 1px solid #999999;
+  border-radius: 4px;
+}
+
+.bend {
+  width: 21px;
+  height: 20px;
+  display: inline-block;
+}
+
+.shift {
+  width: 21px;
+  display: inline-block;
+}
+
+.shift button {
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+
+}
+
+.up {
+  background: url('../images/btnUp.png') no-repeat center / cover;
+}
+
+.down {
+  background: url('../images/btnDown.png') no-repeat center / cover;
+}
